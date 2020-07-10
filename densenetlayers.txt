@@ -1,0 +1,324 @@
+  (conv0): Conv2d(3, 96, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+
+  (denseblock1): _DenseBlock(
+
+    (denselayer1): _DenseLayer(
+      (conv1): Conv2d(96, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer2): _DenseLayer(
+      (conv1): Conv2d(144, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer3): _DenseLayer(
+      (conv1): Conv2d(192, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer4): _DenseLayer(
+      (conv1): Conv2d(240, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer5): _DenseLayer(
+      (conv1): Conv2d(288, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer6): _DenseLayer(
+      (conv1): Conv2d(336, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (conv): Conv2d(384, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+
+  (denseblock2): _DenseBlock(
+
+    (denselayer1): _DenseLayer(
+      (conv1): Conv2d(192, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer2): _DenseLayer(
+      (conv1): Conv2d(240, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer3): _DenseLayer(
+      (conv1): Conv2d(288, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer4): _DenseLayer(
+      (conv1): Conv2d(336, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer5): _DenseLayer(
+      (conv1): Conv2d(384, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer6): _DenseLayer(
+      (conv1): Conv2d(432, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer7): _DenseLayer(
+      (conv1): Conv2d(480, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer8): _DenseLayer(
+      (conv1): Conv2d(528, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer9): _DenseLayer(
+      (conv1): Conv2d(576, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer10): _DenseLayer(
+      (conv1): Conv2d(624, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer11): _DenseLayer(
+      (conv1): Conv2d(672, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer12): _DenseLayer(
+      (conv1): Conv2d(720, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (conv): Conv2d(768, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+
+  (denseblock3): _DenseBlock(
+
+    (denselayer1): _DenseLayer(
+      (conv1): Conv2d(384, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer2): _DenseLayer(
+      (conv1): Conv2d(432, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer3): _DenseLayer(
+      (conv1): Conv2d(480, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer4): _DenseLayer(
+      (conv1): Conv2d(528, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer5): _DenseLayer(
+      (conv1): Conv2d(576, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer6): _DenseLayer(
+      (conv1): Conv2d(624, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer7): _DenseLayer(
+      (conv1): Conv2d(672, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer8): _DenseLayer(
+      (conv1): Conv2d(720, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer9): _DenseLayer(
+      (conv1): Conv2d(768, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer10): _DenseLayer(
+      (conv1): Conv2d(816, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer11): _DenseLayer(
+      (conv1): Conv2d(864, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer12): _DenseLayer(
+      (conv1): Conv2d(912, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer13): _DenseLayer(
+      (conv1): Conv2d(960, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer14): _DenseLayer(
+      (conv1): Conv2d(1008, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer15): _DenseLayer(
+      (conv1): Conv2d(1056, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer16): _DenseLayer(
+      (conv1): Conv2d(1104, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer17): _DenseLayer(
+      (conv1): Conv2d(1152, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer18): _DenseLayer(
+      (conv1): Conv2d(1200, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer19): _DenseLayer(
+      (conv1): Conv2d(1248, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer20): _DenseLayer(
+      (conv1): Conv2d(1296, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer21): _DenseLayer(
+      (conv1): Conv2d(1344, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer22): _DenseLayer(
+      (conv1): Conv2d(1392, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer23): _DenseLayer(
+      (conv1): Conv2d(1440, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer24): _DenseLayer(
+      (conv1): Conv2d(1488, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer25): _DenseLayer(
+      (conv1): Conv2d(1536, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer26): _DenseLayer(
+      (conv1): Conv2d(1584, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer27): _DenseLayer(
+      (conv1): Conv2d(1632, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer28): _DenseLayer(
+      (conv1): Conv2d(1680, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer29): _DenseLayer(
+      (conv1): Conv2d(1728, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer30): _DenseLayer(
+      (conv1): Conv2d(1776, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer31): _DenseLayer(
+      (conv1): Conv2d(1824, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer32): _DenseLayer(
+      (conv1): Conv2d(1872, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer33): _DenseLayer(
+      (conv1): Conv2d(1920, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer34): _DenseLayer(
+      (conv1): Conv2d(1968, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer35): _DenseLayer(
+      (conv1): Conv2d(2016, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer36): _DenseLayer(
+      (conv1): Conv2d(2064, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (conv): Conv2d(2112, 1056, kernel_size=(1, 1), stride=(1, 1), bias=False)
+
+  (denseblock4): _DenseBlock(
+
+    (denselayer1): _DenseLayer(
+      (conv1): Conv2d(1056, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer2): _DenseLayer(
+      (conv1): Conv2d(1104, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer3): _DenseLayer(
+      (conv1): Conv2d(1152, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer4): _DenseLayer(
+      (conv1): Conv2d(1200, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer5): _DenseLayer(
+      (conv1): Conv2d(1248, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer6): _DenseLayer(
+      (conv1): Conv2d(1296, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer7): _DenseLayer(
+      (conv1): Conv2d(1344, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer8): _DenseLayer(
+      (conv1): Conv2d(1392, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer9): _DenseLayer(
+      (conv1): Conv2d(1440, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer10): _DenseLayer(
+      (conv1): Conv2d(1488, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer11): _DenseLayer(
+      (conv1): Conv2d(1536, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer12): _DenseLayer(
+      (conv1): Conv2d(1584, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer13): _DenseLayer(
+      (conv1): Conv2d(1632, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer14): _DenseLayer(
+      (conv1): Conv2d(1680, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer15): _DenseLayer(
+      (conv1): Conv2d(1728, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer16): _DenseLayer(
+      (conv1): Conv2d(1776, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer17): _DenseLayer(
+      (conv1): Conv2d(1824, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer18): _DenseLayer(
+      (conv1): Conv2d(1872, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer19): _DenseLayer(
+      (conv1): Conv2d(1920, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer20): _DenseLayer(
+      (conv1): Conv2d(1968, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer21): _DenseLayer(
+      (conv1): Conv2d(2016, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer22): _DenseLayer(
+      (conv1): Conv2d(2064, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer23): _DenseLayer(
+      (conv1): Conv2d(2112, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+
+    (denselayer24): _DenseLayer(
+      (conv1): Conv2d(2160, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (conv2): Conv2d(192, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
